@@ -141,5 +141,7 @@ Pazymiai:
 
 
     grupe.clear();
+    cout << endl << "Noredami uzbaigti iveskite 0" << endl;
+    cin >> Rand;
     return(0);
 };
