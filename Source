@@ -52,7 +52,7 @@ Pazymiai:
 
 
 
-    
+   
     for (int i = 0; i < KiekSt; i++) {
         cout << "\nIveskite " << i + 1 << " studento varda ir pavarde: \n";
         cin >> grupe[i].Vardas >> grupe[i].Pavarde;
@@ -84,20 +84,20 @@ Pazymiai:
 
 
 
+                
 
-            
 
                 else if (grupe[i].nd[grupe[i].n] == 0) {
-                null = 0;
-                cout << "Ivedete " << grupe[i].n << " pazymi(-ius)" << endl;
+                    null = 0;
+                    cout << "Ivedete " << grupe[i].n << " pazymi(-ius)" << endl;
                 }
                 else {
-                cout << "Klaida. Veskite pazymius nuo 1 iki 10. Noredami uzbaigti iveskite 0." << endl;
+                    cout << "Klaida. Veskite pazymius nuo 1 iki 10. Noredami uzbaigti iveskite 0." << endl;
                 };
+            }
+            cout << "\n Iveskite " << i + 1 << " studento egzamino ivertinima: ";
+            cin >> grupe[i].egz;
         }
-        cout << "\n Iveskite " << i + 1 << " studento egzamino ivertinima: ";
-        cin >> grupe[i].egz;
-
 
         cout << "\nKoks galutinio balo skaicivimo metodas taikomas siam studentui? \n";
         cout << "m - mediana , v - vidurkis: ";
@@ -142,9 +142,8 @@ Pazymiai:
 
 
 
-   
     cout << endl << "Noredami uzbaigti iveskite 0" << endl;
     cin >> Rand;
     return(0);
 }
-};
+
