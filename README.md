@@ -14,11 +14,13 @@ V0.4.0 Realizuota testavimo galimybė. Tačiau ar dėl kodo problemų , ar dėl 
 
 Benchmark'as:
 
+//
 Failo is 1000 irasu (namu darbu skaicius: 12) kurimas uztruko: 0.443503 s
 1000 irasu nuskaitymas is failo uztruko: 0.123835 s
 1000 studentu rusiavimas i dvi grupes/kategorijas uztruko: 0.022658 s
 1000 irasu neislaikiusiu studentu isvedimas i nauja faila uztruko: 0.115613 s
 1000 irasu islaikiusiu studentu isvedimas i nauja faila uztruko: 0.186439 s
+//
 
 1000 irasu testo laikas: 0.898007 s
 
